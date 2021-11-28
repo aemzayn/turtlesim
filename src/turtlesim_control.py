@@ -86,7 +86,11 @@ if __name__ == '__main__':
         while True:
             killTurtle('turtle1')
             spawnturtle(1, 1, 0, 'turtle1')
+            # rotate to y
+            rotate(45, 0)
             moveToTarget(2, False)
+
+            # rotate 
             rotate(30, 1)
 
             rate.sleep()
